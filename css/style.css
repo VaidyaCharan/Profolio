@@ -16,7 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #dd8181;
-  background: #fff;
+  background: #ffffff;
 }
 
 #page {
@@ -47,7 +47,7 @@ body {
 }
 
 a {
-  color: #5ece70;
+  color: #181522;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -96,11 +96,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .overlay,
 .fh5co-cover .overlay {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(255, 144, 0, 0.9);
+  background-position: center;
+
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
