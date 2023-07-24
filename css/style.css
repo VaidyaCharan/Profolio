@@ -1256,6 +1256,11 @@ input[type="text"] {
   border-color: #FF9000;
 }
 
+.Download>button{
+margin-bottom: 20px;
+color: white;
+}
+
 .row-pb-md {
   padding-bottom: 4em !important;
 }
@@ -1286,6 +1291,26 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.btn-Secondary {
+  background: #FF9000;
+  color: #fff;
+  border: 2px solid #FF9000;
+  text-decoration: none;
+}
+.btn-Secondary:hover, .btn-Secondary:focus, .btn-Secondary:active {
+  background: #ff9b1a !important;
+  border-color: #ff9b1a !important;
+}
+.btn-Secondary.btn-outline {
+  background: transparent;
+  color: #FF9000;
+  border: 2px solid #FF9000;
+}
+.btn-Secondary.btn-outline:hover, .btn-Secondary.btn-outline:focus, .btn-Secondary.btn-outline:active {
+  background: #FF9000;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
